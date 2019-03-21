@@ -1,0 +1,32 @@
+{
+  "name": "jscms-cli",
+  "version": "0.0.1",
+  "description": "jscms-cli",
+  "main": "index.js",
+  "bin": {
+    "jscms": "bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "bin",
+    "lib",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-cms/jscms-cli.git"
+  },
+  "author": "zhibing <17560235@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/js-cms/jscms-cli/issues"
+  },
+  "homepage": "https://github.com/js-cms/jscms-cli#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  }
+}
