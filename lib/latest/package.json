@@ -1,0 +1,40 @@
+{
+  "name": "jscms-server-template",
+  "version": "0.1.0",
+  "description": "jscms-server's template for jscms-cli",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.2",
+    "egg": "^2.15.1",
+    "egg-cors": "^2.2.0",
+    "egg-mongoose": "^3.1.1",
+    "egg-scripts": "^2.11.0",
+    "egg-static": "^2.2.0",
+    "egg-validate": "^2.0.2",
+    "egg-view-ejs": "^2.0.0",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11",
+    "markdown-it": "^8.4.2",
+    "marked": "^0.6.1",
+    "modelman": "^0.0.1",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2",
+    "validator": "^10.11.0",
+    "xss-filters": "^1.2.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-example --port=7011",
+    "stop": "egg-scripts stop --title=egg-server-example --port=7011"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-cms/jscms-server"
+  },
+  "author": "zhibing <17560235@qq.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "User",
+  "data": [{
+    "_id": "5c9648d94a4cf500067b6769",
+    "email": "",
+    "password": "",
+    "nickname": "jscms超级管理员",
+    "location": "中国",
+    "signature": "欢迎使用jscms。",
+    "avatar": "/theme-static/default/static/images/user-default.jpeg",
+    "power": ["super"],
+    "score": 99999,
+    "about": "我是jscms的超级管理员",
+    "createTime": 1546300800000,
+    "updateTime": 1546300800000,
+    "active": true
+  }]
+}

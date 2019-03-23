@@ -1,0 +1,21 @@
+{
+  "name": "Article",
+  "data": [{
+    "serialNumber": 0,
+    "categoryId": "",
+    "userId": "",
+    "type": 1,
+    "title": "",
+    "keywords": "",
+    "description": "",
+    "poster": "",
+    "mdContent": "",
+    "htContent": "",
+    "topType": "",
+    "likeCount": "",
+    "commentCount": "",
+    "visNumber": "",
+    "createTime": 1546300800000,
+    "updateTime": 1546300800000
+  }]
+}
