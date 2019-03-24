@@ -1,0 +1,63 @@
+{
+  "name": "Config",
+  "data": [
+    {
+      "name": "域名信息",
+      "alias": "domainBase",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": [
+        {
+          "protocol": "http",
+          "host": "www.jscms.com",
+          "port": "80"
+        },
+        {
+          "protocol": "http",
+          "host": "127.0.0.1",
+          "port": "8080"
+        }
+      ]
+    },
+    {
+      "name": "站点信息",
+      "alias": "website",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": {
+        "title": "刺梨之家 - 中国刺梨资讯信息交流中心",
+        "keywords": "",
+        "description": "",
+        "separator": " - ",
+        "subtitle": "刺梨之家",
+        "icp": "京ICP备00000000号",
+        "footHTML": "<p>© 2018 www.meicili.com All Rights Reserved. 刺梨之家 版权所有</p>",
+        "logo": "",
+        "favicon": "",
+        "about": "刺梨之家提供全面的刺梨资讯，稳定的刺梨价格指数供广大刺梨爱好者参考。",
+        "friendLinks": [
+          {
+            "name": "百度",
+            "logo": "",
+            "url": "https//www.baidu.com/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "菜单",
+      "alias": "menu",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": [
+        {
+          "order": 1,
+          "name": "自定义菜单",
+          "alias": "custom",
+          "link": "/page/custom.html",
+          "activeUrl": "@/custom.html"
+        }
+      ]
+    }
+  ]
+}

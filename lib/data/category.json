@@ -1,0 +1,26 @@
+{
+  "name": "Category",
+  "data": [{
+    "_id": "5c9791a22ef9cff7d524a126",
+    "order": 0,
+    "name": "默认分类",
+    "alias": "defalut",
+    "title": "默认分类",
+    "keywords": ["默认分类"],
+    "description": "默认分类",
+    "articleCount": 1,
+    "createTime": 1546300800000,
+    "updateTime": 1546300800000
+  }, {
+    "_id": "5c9791a22ef9cff7d524a127",
+    "order": 0,
+    "name": "默认分类",
+    "alias": "defalut",
+    "title": "默认分类",
+    "keywords": ["默认分类"],
+    "description": "默认分类",
+    "articleCount": 1,
+    "createTime": 1546300800000,
+    "updateTime": 1546300800000
+  }]
+}
