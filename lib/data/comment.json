@@ -1,8 +1,7 @@
 {
   "name": "Comment",
   "data": [{
-    "_": "5c9791a22ef9cff7d524a12d",
-    "commentId": "",
+    "_id": "5c9791a22ef9cff7d524a12d",
     "articleId": "5c9791a22ef9cff7d524a12c",
     "authorNickname": "匿名网友",
     "authorUrl": "http://jscms.top/",

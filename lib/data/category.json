@@ -13,13 +13,13 @@
     "updateTime": 1546300800000
   }, {
     "_id": "5c9791a22ef9cff7d524a127",
-    "order": 0,
-    "name": "默认分类",
-    "alias": "defalut",
-    "title": "默认分类",
-    "keywords": ["默认分类"],
-    "description": "默认分类",
-    "articleCount": 1,
+    "order": 1,
+    "name": "综合分类",
+    "alias": "complex",
+    "title": "综合分类",
+    "keywords": ["综合分类"],
+    "description": "综合分类",
+    "articleCount": 0,
     "createTime": 1546300800000,
     "updateTime": 1546300800000
   }]

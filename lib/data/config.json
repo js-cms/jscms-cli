@@ -25,16 +25,16 @@
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
       "info": {
-        "title": "刺梨之家 - 中国刺梨资讯信息交流中心",
-        "keywords": "",
-        "description": "",
+        "title": "又是一个jscms站点",
+        "keywords": "jscms",
+        "description": "又是一个jscms站点",
         "separator": " - ",
-        "subtitle": "刺梨之家",
+        "subtitle": "jscms",
         "icp": "京ICP备00000000号",
-        "footHTML": "<p>© 2018 www.meicili.com All Rights Reserved. 刺梨之家 版权所有</p>",
+        "footHTML": "<p>© 2018 www.meicili.com All Rights Reserved. Jscms 版权所有</p>",
         "logo": "",
         "favicon": "",
-        "about": "刺梨之家提供全面的刺梨资讯，稳定的刺梨价格指数供广大刺梨爱好者参考。",
+        "about": "又是一个jscms站点",
         "friendLinks": [
           {
             "name": "百度",
