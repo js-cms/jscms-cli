@@ -3,7 +3,7 @@
   "data": [
     {
       "name": "域名信息",
-      "alias": "domainBase",
+      "alias": "domains",
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
       "info": [
@@ -21,7 +21,7 @@
     },
     {
       "name": "站点信息",
-      "alias": "website",
+      "alias": "site",
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
       "info": {
@@ -34,28 +34,43 @@
         "footHTML": "<p>© 2018 www.meicili.com All Rights Reserved. Jscms 版权所有</p>",
         "logo": "",
         "favicon": "",
-        "about": "又是一个jscms站点",
-        "friendLinks": [
-          {
-            "name": "百度",
-            "logo": "",
-            "url": "https//www.baidu.com/"
-          }
-        ]
+        "about": "又是一个jscms站点"
       }
     },
     {
       "name": "菜单",
-      "alias": "menu",
+      "alias": "menus",
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
       "info": [
         {
-          "order": 1,
+          "order": 0,
           "name": "自定义菜单",
           "alias": "custom",
           "link": "/page/custom.html",
           "activeUrl": "@/custom.html"
+        }
+      ]
+    },
+    {
+      "name": "友情链接",
+      "alias": "links",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": [
+        {
+          "order": 0,
+          "name": "google",
+          "logo": "",
+          "url": "https//www.google.com/",
+          "desc": "这是google的官方网站。"
+        },
+        {
+          "order": 1,
+          "name": "jscms",
+          "logo": "",
+          "url": "https//www.jscms.top/",
+          "desc": "这是jscms的官方网站。"
         }
       ]
     }
