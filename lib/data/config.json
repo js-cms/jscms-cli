@@ -2,6 +2,13 @@
   "name": "Config",
   "data": [
     {
+      "name": "标签",
+      "alias": "tags",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": ["jscms"]
+    },
+    {
       "name": "域名信息",
       "alias": "domains",
       "createTime": 1546300800000,
