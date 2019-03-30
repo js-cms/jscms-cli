@@ -20,12 +20,12 @@
 
                         <div class="breadcrumbs clear">
                             <h1>
-                                标签：<%-typeObj.tagName%>
+                                标签：<%-RENDER_PARAM.tagName%>
                             </h1>
                         </div><!-- .breadcrumbs -->
 
                         <div id="recent-content" class="content-list">
-                            <% articles.forEach(function(article, index) { %>
+                            <% RENDER_PARAM.articles.forEach(function(article, index) { %>
                             <div id="post-<%-article.serialNumber%>" class="clear post-<%-article.serialNumber%> post type-post status-publish format-standard has-post-thumbnail hentry category-<%-article.categoryId.alias%>">
 
                                 <a class="thumbnail-link" href="/<%-article.serialNumber%>.html">
@@ -100,22 +100,22 @@
                     <nav class="navigation pagination" role="navigation">
                         <h2 class="screen-reader-text">文章导航</h2>
                         <div class="nav-links">
-                            <% if ( pagination.current > pagination.start ) { %>
-                            <a class="next page-numbers" href="/<%-pagination.prefix%>-<%-pagination.start%>.html">首页</a>
+                            <% if ( RENDER_PARAM.pagination.current > RENDER_PARAM.pagination.start ) { %>
+                            <a class="next page-numbers" href="/<%-RENDER_PARAM.pagination.prefix%>-<%-RENDER_PARAM.pagination.start%>.html">首页</a>
                             <% } else { %>
                             <a class="next page-numbers invalid" href="javascript:void(0);">首页</a>
                             <% } %>
-                            <% pagination.pages.forEach(function(page, index) { %>
+                            <% RENDER_PARAM.pagination.pages.forEach(function(page, index) { %>
                             <% if ( page.isCurrent ) { %>
                             <span aria-current="page" class="page-numbers current">
                                 <%-page.num%></span>
                             <% } else { %>
-                            <a class="page-numbers" href="/<%-pagination.prefix%>-<%-page.num%>.html">
+                            <a class="page-numbers" href="/<%-RENDER_PARAM.pagination.prefix%>-<%-page.num%>.html">
                                 <%-page.num%></a>
                             <% } %>
                             <% }) %>
-                            <% if ( pagination.current < pagination.end ) { %>
-                            <a class="next page-numbers" href="/<%-pagination.prefix%>-<%-pagination.end%>.html">尾页</a>
+                            <% if ( RENDER_PARAM.pagination.current < RENDER_PARAM.pagination.end ) { %>
+                            <a class="next page-numbers" href="/<%-RENDER_PARAM.pagination.prefix%>-<%-RENDER_PARAM.pagination.end%>.html">尾页</a>
                             <% } else { %>
                             <a class="next page-numbers invalid" href="javascript:void(0);">尾页</a>
                             <% } %>

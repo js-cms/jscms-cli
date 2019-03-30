@@ -66,7 +66,7 @@
                                                     <span class="view-count">
                                                         <%-article.visNumber%></span> 浏览 </span>
 
-                                                <span class="entry-comment"><a href="/<%-typeObj.value%>.html#comments"
+                                                <span class="entry-comment"><a href="/<%-RENDER_PARAM.value%>.html#comments"
                                                         class="comments-link">
                                                         <%-comments.length%> 评论</a></span>
 
@@ -112,11 +112,11 @@
                                     <div class="modal-content clear">
                                         <h3>给这篇文章的作者打赏</h3>
                                         <div class="ht_grid_1_2_custom">
-                                            <img src="<%-CONFIG.THEME_STATIC%>/static/images/wechat-qr.jpg" alt="微信扫一扫打赏">
+                                            <img src="<%-CONSTANT.THEME_STATIC%>/static/images/wechat-qr.jpg" alt="微信扫一扫打赏">
                                             微信扫一扫打赏
                                         </div>
                                         <div class="ht_grid_1_2_custom">
-                                            <img src="<%-CONFIG.THEME_STATIC%>/static/images/alipay-qr.jpg" alt="微信扫一扫打赏">
+                                            <img src="<%-CONSTANT.THEME_STATIC%>/static/images/alipay-qr.jpg" alt="微信扫一扫打赏">
                                             支付宝扫一扫打赏
                                         </div>
                                         <span class="close" onclick="this.parentNode.parentNode.style.display='none'">×</span>
@@ -272,11 +272,11 @@
         </div><!-- #content .site-content -->
 
         <% include ../common/foot.html %>
-        <script type="text/javascript" src="<%-CONFIG.THEME_STATIC%>/static/lib/vue.min.js"></script>
+        <script type="text/javascript" src="<%-CONSTANT.THEME_STATIC%>/static/lib/vue.min.js"></script>
         <script>
             window.articleId = '<%-article._id%>';
         </script>
-        <script type="text/javascript" src="<%-CONFIG.THEME_STATIC%>/static/js/article.js"></script>
+        <script type="text/javascript" src="<%-CONSTANT.THEME_STATIC%>/static/js/article.js"></script>
 </body>
 
 </html>

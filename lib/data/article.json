@@ -2,7 +2,7 @@
   "name": "Article",
   "data": [{
     "_id": "5c9791a22ef9cff7d524a12c",
-    "serialNumber": 0,
+    "numberId": 0,
     "categoryId": "5c9791a22ef9cff7d524a126",
     "userId": "5c9648d94a4cf500067b6769",
     "type": 1,
@@ -20,7 +20,7 @@
     "updateTime": 1546300800000
   }, {
     "_id": "5c9791a22ef9cff7d524a13c",
-    "serialNumber": 1,
+    "numberId": 1,
     "categoryId": "5c9791a22ef9cff7d524a126",
     "userId": "5c9648d94a4cf500067b6769",
     "type": 1,
@@ -38,7 +38,7 @@
     "updateTime": 1546300800000
   }, {
     "_id": "5c9791a22ef9cff7d524a14c",
-    "serialNumber": 2,
+    "numberId": 2,
     "categoryId": "5c9791a22ef9cff7d524a127",
     "userId": "5c9648d94a4cf500067b6769",
     "type": 1,
@@ -56,7 +56,7 @@
     "updateTime": 1546300800000
   }, {
     "_id": "5c9791a22ef9cff7d524a15c",
-    "serialNumber": 3,
+    "numberId": 3,
     "categoryId": "5c9791a22ef9cff7d524a127",
     "userId": "5c9648d94a4cf500067b6769",
     "type": 1,
@@ -74,7 +74,7 @@
     "updateTime": 1546300800000
   }, {
     "_id": "5c9791a22ef9cff7d524a16c",
-    "serialNumber": 4,
+    "numberId": 4,
     "categoryId": "5c9791a22ef9cff7d524a127",
     "userId": "5c9648d94a4cf500067b6769",
     "type": 1,
