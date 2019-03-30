@@ -55,7 +55,7 @@
           "name": "自定义菜单",
           "alias": "custom",
           "link": "/page/custom.html",
-          "activeUrl": "@/custom.html"
+          "activeUrl": "@/page/custom.html"
         }
       ]
     },

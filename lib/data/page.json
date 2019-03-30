@@ -1,0 +1,13 @@
+{
+  "name": "Page",
+  "data": [{
+    "title": "自定义页面",
+    "keywords": "自定义页面关键词",
+    "description": "这是一个自定义页面",
+    "name": "自定义页面",
+    "alias": "custom",
+    "html": "<p>这是自定义页面中的一段内容，你可以删除或者编辑它。</p>",
+    "createTime": 1546300800000,
+    "updateTime": 1546300800000
+  }]
+}
