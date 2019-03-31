@@ -20,15 +20,15 @@
 
                         <div class="breadcrumbs clear">
                             <h1>
-                                作者：<%-author.nickname%>
+                                作者：<%-RENDER_PARAM.author.nickname%>
                             </h1>
                         </div><!-- .breadcrumbs -->
 
                         <div id="recent-content" class="content-list">
                             <% RENDER_PARAM.articles.forEach(function(article, index) { %>
-                            <div id="post-<%-article.serialNumber%>" class="clear post-<%-article.serialNumber%> post type-post status-publish format-standard has-post-thumbnail hentry category-<%-article.categoryId.alias%>">
+                            <div id="post-<%-article.numberId%>" class="clear post-<%-article.numberId%> post type-post status-publish format-standard has-post-thumbnail hentry category-<%-article.categoryId.alias%>">
 
-                                <a class="thumbnail-link" href="/<%-article.serialNumber%>.html">
+                                <a class="thumbnail-link" href="/<%-article.numberId%>.html">
                                     <div class="thumbnail-wrap">
                                         <img width="280" src="<%-article.poster%>" class="attachment-zimeiti_1_list_thumb size-zimeiti_1_list_thumb wp-post-image"
                                             alt="" />
@@ -37,7 +37,7 @@
 
                                 <div class="entry-overview">
 
-                                        <h2 class="entry-title"><a href="/<%-article.serialNumber%>.html">
+                                        <h2 class="entry-title"><a href="/<%-article.numberId%>.html">
                                                 <%-article.title%></a></h2>
     
                                         <div class="entry-summary">
@@ -55,7 +55,7 @@
                                                 <a href="/author/<%-article.userId.nickname%>.html">
     
                                                     <img alt="<%-article.userId.nickname%>" src="<%-article.userId.avatar%>"
-                                                        srcset="<%-article.userId.avatar%>" class="avatar avatar-<%-article.serialNumber%> photo"
+                                                        srcset="<%-article.userId.avatar%>" class="avatar avatar-<%-article.numberId%> photo"
                                                         height="80" width="80">
                                                     <%-article.userId.nickname%>
                                                 </a>
@@ -70,7 +70,7 @@
                                                     <span class="view-count">
                                                         <%-article.visNumber%> </span> 浏览</span>
                                                 <span class="entry-comment">
-                                                    <a href="/<%-article.serialNumber%>.html#comments" class="comments-link">
+                                                    <a href="/<%-article.numberId%>.html#comments" class="comments-link">
                                                         <%-article.commentCount%> 评论</a>
                                                 </span>
     

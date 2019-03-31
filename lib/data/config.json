@@ -80,6 +80,15 @@
           "desc": "这是jscms的官方网站。"
         }
       ]
+    },
+    {
+      "name": "自增计数",
+      "alias": "articleCount",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": {
+        "num": 4
+      }
     }
   ]
 }

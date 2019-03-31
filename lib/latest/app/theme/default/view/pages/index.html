@@ -21,7 +21,7 @@
                             <ul class="bxslider">
                                 <% RENDER_PARAM.topMainArticles.forEach(function(article, index) { %>
                                 <li class="featured-slide hentry">
-                                    <a class="thumbnail-link" href="/<%-article.serialNumber%>.html">
+                                    <a class="thumbnail-link" href="/<%-article.numberId%>.html">
                                         <div class="thumbnail-wrap">
                                             <img width="574" height="321" src="<%-article.poster%>" class="attachment-zimeiti_1_featured_large_thumb size-zimeiti_1_featured_large_thumb wp-post-image"
                                                 alt="<%-article.title%>" sizes="(max-width: 574px) 100vw, 574px" />
@@ -30,7 +30,7 @@
                                     </a>
                                     <div class="entry-header clear">
                                         <h2 class="entry-title">
-                                            <a href="/133.html">
+                                            <a href="/<%-article.numberId%>.html">
                                                 <%-article.title%>
                                             </a>
                                         </h2>
@@ -44,7 +44,7 @@
                         <div class="featured-right">
                             <% if ( RENDER_PARAM.topMinorArticles[0] ) { %>
                             <div class="featured-small ">
-                                <a class="thumbnail-link" href="/<%-RENDER_PARAM.topMinorArticles[0].serialNumber%>.html">
+                                <a class="thumbnail-link" href="/<%-RENDER_PARAM.topMinorArticles[0].numberId%>.html">
                                     <div class="thumbnail-wrap">
                                         <img src="<%-RENDER_PARAM.topMinorArticles[0].poster%>" 
                                             class="attachment-zimeiti_1_featured_small_thumb size-zimeiti_1_featured_small_thumb wp-post-image"
@@ -62,7 +62,7 @@
                             <% } %>
                             <% if ( RENDER_PARAM.topMinorArticles[1] ) { %>
                             <div class="featured-small last">
-                                <a class="thumbnail-link" href="/<%-RENDER_PARAM.topMinorArticles[1].serialNumber%>.html">
+                                <a class="thumbnail-link" href="/<%-RENDER_PARAM.topMinorArticles[1].numberId%>.html">
                                     <div class="thumbnail-wrap">
                                         <img 
                                             src="<%-RENDER_PARAM.topMinorArticles[1].poster%>"
@@ -85,9 +85,9 @@
 
                         <div id="recent-content" class="content-list">
                             <% RENDER_PARAM.articles.forEach(function(article, index) { %>
-                            <div id="post-<%-article.serialNumber%>" class="clear post-<%-article.serialNumber%> post type-post status-publish format-standard has-post-thumbnail hentry">
+                            <div id="post-<%-article.numberId%>" class="clear post-<%-article.numberId%> post type-post status-publish format-standard has-post-thumbnail hentry">
 
-                                <a class="thumbnail-link" href="/<%-article.serialNumber%>.html">
+                                <a class="thumbnail-link" href="/<%-article.numberId%>.html">
                                     <div class="thumbnail-wrap">
                                         <img width="280" src="<%-article.poster%>" class="attachment-zimeiti_1_list_thumb size-zimeiti_1_list_thumb wp-post-image"
                                             alt="<%-article.title%>">
@@ -96,7 +96,7 @@
 
                                 <div class="entry-overview">
 
-                                    <h2 class="entry-title"><a href="/<%-article.serialNumber%>.html">
+                                    <h2 class="entry-title"><a href="/<%-article.numberId%>.html">
                                             <%-article.title%></a></h2>
 
                                     <div class="entry-summary">
@@ -114,7 +114,7 @@
                                             <a href="/author/<%-article.userId.nickname%>.html">
 
                                                 <img alt="<%-article.userId.nickname%>" src="<%-article.userId.avatar%>"
-                                                    srcset="<%-article.userId.avatar%>" class="avatar avatar-<%-article.serialNumber%> photo"
+                                                    srcset="<%-article.userId.avatar%>" class="avatar avatar-<%-article.numberId%> photo"
                                                     height="80" width="80">
                                                 <%-article.userId.nickname%>
                                             </a>
@@ -129,7 +129,7 @@
                                                 <span class="view-count">
                                                     <%-article.visNumber%> </span> 浏览</span>
                                             <span class="entry-comment">
-                                                <a href="/<%-article.serialNumber%>.html#comments" class="comments-link">
+                                                <a href="/<%-article.numberId%>.html#comments" class="comments-link">
                                                     <%-article.commentCount%> 评论</a>
                                             </span>
 
@@ -138,7 +138,7 @@
                                     </div><!-- .entry-meta -->
                                 </div><!-- .entry-overview -->
 
-                            </div><!-- #post-<%-article.serialNumber%> -->
+                            </div><!-- #post-<%-article.numberId%> -->
                             <% }) %>
                         </div><!-- #recent-content -->
 

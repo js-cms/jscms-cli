@@ -1,6 +1,6 @@
 <footer id="colophon" class="site-footer ">
 
-    <div class="footer-columns <% if ( RENDER_PARAM.type === 404 || RENDER_PARAM.type === 'page' ) { %>container<% } else { %>footer-container<% } %> clear >">
+    <div class="footer-columns <% if ( RENDER_PARAM.pageType === 404 || RENDER_PARAM.pageType === 'page' ) { %>container<% } else { %>footer-container<% } %> clear >">
 
         <div class="footer-column footer-column-1 ht_grid_1_4">
             <div id="zimeiti_1-recent-2" class="widget footer-widget widget-zimeiti_1-recent widget_posts_thumbnail">
@@ -8,13 +8,13 @@
                 <ul>
                     <% RENDER_DATA.recentArticles3.forEach(function(article, index) { %>
                     <li class="clear">
-                        <a href="/<%-article.serialNumber%>.html" rel="bookmark">
+                        <a href="/<%-article.numberId%>.html" rel="bookmark">
                             <div class="thumbnail-wrap">
                                 <img width="120" height="80" src="<%-article.poster%>" class="attachment-zimeiti_1_widget_post_thumb size-zimeiti_1_widget_post_thumb wp-post-image" alt="<%-article.title%>">
                             </div>
                         </a>
                         <div class="entry-wrap">
-                            <a href="/<%-article.serialNumber%>.html" rel="bookmark"><%-article.title%></a>
+                            <a href="/<%-article.numberId%>.html" rel="bookmark"><%-article.title%></a>
                         </div>
                     </li>
                     <% }) %>
@@ -28,7 +28,7 @@
                 <ul>
                     <% RENDER_DATA.randomArticles3.forEach(function(article, index) { %>
                     <li class="clear">
-                        <a href="/<%-article.serialNumber%>.html" rel="bookmark">
+                        <a href="/<%-article.numberId%>.html" rel="bookmark">
                             <div class="thumbnail-wrap">
                                 <img width="120" height="80" src="<%-article.poster%>"
                                     class="attachment-zimeiti_1_widget_post_thumb size-zimeiti_1_widget_post_thumb wp-post-image"
@@ -36,7 +36,7 @@
                             </div>
                         </a>
                         <div class="entry-wrap">
-                            <a href="/<%-article.serialNumber%>.html" rel="bookmark">
+                            <a href="/<%-article.numberId%>.html" rel="bookmark">
                                 <%-article.title%>
                             </a>
                         </div>
@@ -51,7 +51,7 @@
                 <ul id="recentcomments">
                     <% RENDER_DATA.recentComments3.forEach(function(comment, index) { %>
                     <li class="recentcomments">
-                        <span class="comment-author-link"> <%-comment.authorNickname%></span>发表在《<a href="/<%-comment.articleId.serialNumber%>.html#comment-<%-comment._id%>"><%-comment.articleId.title%></a>》
+                        <span class="comment-author-link"> <%-comment.authorNickname%></span>发表在《<a href="/<%-comment.articleId.numberId%>.html#comment-<%-comment._id%>"><%-comment.articleId.title%></a>》
                     </li>
                     <% }) %>
                 </ul>
@@ -139,12 +139,12 @@
                 var aTop = 200;
                 if (($(this).scrollTop() >= aTop)) {
                     $('.single .site-main .entry-header').addClass('sticky-breadcrumbs');
-                    $('.single #primary article.hentry').css('padding-top', '110px');
+                    $('.single #primary RENDER_PARAM.article.hentry').css('padding-top', '110px');
                     $('#single-sticky').addClass(' container');
                     $('.single .left-col').addClass('header-scrolled');
                 } else {
                     $('.single .site-main .entry-header').removeClass('sticky-breadcrumbs');
-                    $('.single #primary article.hentry').css('padding-top', '0');
+                    $('.single #primary RENDER_PARAM.article.hentry').css('padding-top', '0');
                     $('#single-sticky').removeClass(' container');
                     $('.single .left-col').removeClass('header-scrolled');
                 }
