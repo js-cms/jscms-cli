@@ -1,0 +1,39 @@
+{
+  "name": "Resource",
+  "data": [{
+    "type": 1,
+    "store": 1,
+    "filename": "1546300800001.jpg",
+    "remarks": "第一张图片",
+    "createTime": "1546300800001",
+    "updateTime": "1546300800001" 
+  }, {
+    "type": 1,
+    "store": 1,
+    "filename": "1546300800002.jpg",
+    "remarks": "第二张图片",
+    "createTime": "1546300800002",
+    "updateTime": "1546300800002" 
+  }, {
+    "type": 1,
+    "store": 1,
+    "filename": "1546300800003.jpg",
+    "remarks": "第三张图片",
+    "createTime": "1546300800003",
+    "updateTime": "1546300800003" 
+  }, {
+    "type": 1,
+    "store": 1,
+    "filename": "1546300800004.jpg",
+    "remarks": "第四张图片",
+    "createTime": "1546300800004",
+    "updateTime": "1546300800004" 
+  }, {
+    "type": 1,
+    "store": 1,
+    "filename": "1546300800005.jpg",
+    "remarks": "第五张图片",
+    "createTime": "1546300800005",
+    "updateTime": "1546300800005" 
+  }]
+}
