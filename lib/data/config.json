@@ -38,6 +38,7 @@
         "separator": " - ",
         "subtitle": "jscms",
         "icp": "京ICP备00000000号",
+        "articleStatement": "<style>\n.statement {\n  font-size: 12px;\n}\n.statement .font-red {\n  color: red;\n}\n</style>\n<div class=\"statement\">\n  <span class=\"font-red\">声明：</span>\n  <span class=\"text\">本站的部分内容来源于互联网，如不慎侵犯到您的权益，请联系我们，我们会在36小时内删除。\n  </span>\n</div>\n",
         "footHTML": "<p>© 2018 www.meicili.com All Rights Reserved. Jscms 版权所有</p>",
         "logo": "",
         "favicon": "",
