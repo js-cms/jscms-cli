@@ -17,7 +17,7 @@ function checkNodeVersion(wanted, id) {
   }
 }
 
-checkNodeVersion(requiredVersion, 'cdnlib');
+checkNodeVersion(requiredVersion, 'jscms-cli');
 
 const program = require('commander');
 
