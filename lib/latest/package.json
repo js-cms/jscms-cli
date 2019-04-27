@@ -14,6 +14,7 @@
     "egg-validate": "^2.0.2",
     "egg-view-ejs": "^2.0.0",
     "fs-extra": "^7.0.1",
+    "jscms-bak": "^0.0.2",
     "lodash": "^4.17.11",
     "markdown-it": "^8.4.2",
     "marked": "^0.6.1",
@@ -29,7 +30,9 @@
   },
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-example --port=7011",
-    "stop": "egg-scripts stop --title=egg-server-example --port=7011"
+    "stop": "egg-scripts stop --title=egg-server-example --port=7011",
+    "backup": "jscms-bak backup .",
+    "restore": "jscms-bak restore ."
   },
   "repository": {
     "type": "git",
