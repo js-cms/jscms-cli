@@ -19,13 +19,13 @@ npm install jscms-cli -g
 
 首先你要在你的项目文件夹里新建一个配置文件，它是一个js文件。
 
-方法一：你可以直接使用命令行工具先创建一个配置文件。
+**方法一**：你可以直接使用命令行工具先创建一个配置文件。
 
 ```bash
 jscms config .
 ```
 
-方法二：或者，你也可以手动创建配置文件；文件名``必须命名为：jscms.config.js``，文件内容如下：
+**方法二**：或者，你也可以手动创建配置文件；文件名``必须命名为：jscms.config.js``，文件内容如下：
 
 ```javascript
 module.exports = {
@@ -61,7 +61,7 @@ module.exports = {
   'dbPass': '',
   // This is the exposed port of the nodejs application, required.
   // 这是nodejs应用程序的端口，必填。
-  'nodeAppPort': '7654',
+  'port': '7654',
   // This fills in your domain name, please note that you cannot bring www.
   // 绑定的域名，请注意不要带上www。
   'domain': 'jscms.top'
