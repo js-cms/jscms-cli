@@ -34,6 +34,15 @@ program
     require('../lib/create')(folderName, options);
   });
 
+program
+  .command('config <folder-name>')
+  .description('Create a default configuration file for jscms.')
+  .option('-c, --config <config-name>', 'You can specify a configuration file directly.')
+  .action((folderName, cmd) => {
+    const options = cleanArgs(cmd);
+    require('../lib/config')(folderName, options);
+  });
+
 // output help information on unknown commands
 program
   .arguments('<command>')

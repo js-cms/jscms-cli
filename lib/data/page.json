@@ -6,8 +6,21 @@
     "description": "这是一个自定义页面",
     "name": "自定义页面",
     "alias": "custom",
+    "route": "",
+    "contentType": "",
     "html": "<p>这是自定义页面中的一段内容，你可以删除或者编辑它。</p>",
     "createTime": 1546300800000,
     "updateTime": 1546300800000
+  }, {
+    "title": "百度验证",
+    "keywords": "百度验证",
+    "description": "百度验证",
+    "name": "百度验证",
+    "alias": "baidu",
+    "route": "/baidu_verify_nbWsJydz7D.html",
+    "contentType": "",
+    "html": "nbWsJydz7D",
+    "createTime": 1546300800001,
+    "updateTime": 1546300800001
   }]
 }

@@ -83,6 +83,13 @@
       ]
     },
     {
+      "name": "robots文件",
+      "alias": "robots",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": "# robots.txt\nUser-agent: *\nDisallow: "
+    },
+    {
       "name": "自增计数",
       "alias": "articleCount",
       "createTime": 1546300800000,
