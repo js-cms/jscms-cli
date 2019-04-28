@@ -43,7 +43,7 @@ module.exports = {
   'username': 'super@jscms.top',
   // This is the password of the super administrator.
   // 这是超级管理员的密码。
-  'password': 'superadmin',
+  'password': 'superadmin888',
   // This is the host of the MongoDB database.
   // 这是MongoDB数据库所在机器的ip地址。
   'dbHost': '127.0.0.1',
