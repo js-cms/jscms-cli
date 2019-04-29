@@ -2,17 +2,23 @@
   "name": "User",
   "data": [{
     "_id": "5c9648d94a4cf500067b6769",
+    "phone": "1300000000",
     "email": "",
     "password": "",
-    "nickname": "jscms超级管理员",
+    "nickname": "Jscms超级管理员",
+    "sex": 1,
+    "birthday": "811987200000",
+    "qq": "17560235",
+    "wx": "iamnotahacker",
+    "work": "某某公司 · 某某部门 · 前端开发工程师",
     "location": "中国",
-    "signature": "欢迎使用jscms。",
+    "tags": ["懒"],
     "avatar": "/theme-static/default/static/images/user-default.jpeg",
+    "about": "执着于理想，纯粹于当下。",
     "power": ["super"],
     "score": 99999,
-    "about": "我是jscms的超级管理员",
+    "active": true,
     "createTime": 1546300800000,
-    "updateTime": 1546300800000,
-    "active": true
+    "updateTime": 1546300800000
   }]
 }
