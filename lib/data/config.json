@@ -32,17 +32,17 @@
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
       "info": {
-        "title": "又是一个jscms站点",
+        "title": "又是一个Jscms站点",
         "keywords": "jscms",
-        "description": "又是一个jscms站点",
+        "description": "又是一个Jscms站点",
         "separator": " - ",
         "subtitle": "jscms",
         "icp": "京ICP备00000000号",
         "articleStatement": "<style>\n.statement {\n  font-size: 12px;\n}\n.statement .font-red {\n  color: red;\n}\n</style>\n<div class=\"statement\">\n  <span class=\"font-red\">声明：</span>\n  <span class=\"text\">本站的部分内容来源于互联网，如不慎侵犯到您的权益，请联系我们，我们会在36小时内删除。\n  </span>\n</div>\n",
-        "footHTML": "<p>© 2018 www.meicili.com All Rights Reserved. Jscms 版权所有</p>",
+        "footHTML": "<p>© Jscms.Top All Rights Reserved. Jscms 版权所有</p>",
         "logo": "",
         "favicon": "",
-        "about": "又是一个jscms站点"
+        "about": "本网站自豪的采用Jscms搭建。"
       }
     },
     {
