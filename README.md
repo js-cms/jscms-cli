@@ -93,6 +93,63 @@ $ npm start
 $ npm stop
 ```
 
+## 默认数据
+
+**安装完成后请自行删除默认数据。**
+
+### 默认分类
+
+- 创业投资，ObjectId(5c9791a22ef9cff7d524a126)
+- 科技创新，ObjectId(5c9791a22ef9cff7d524a127)
+- 企业服务，ObjectId(5c9791a22ef9cff7d524a128)
+- 生活娱乐，ObjectId(5c9791a22ef9cff7d524a129)
+- 职场管理，ObjectId(5c9791a22ef9cff7d524a130)
+- 便捷出行，ObjectId(5c9791a22ef9cff7d524a131)
+- 创新创业，ObjectId(5c9791a22ef9cff7d524a132)
+- 房屋产业，ObjectId(5c9791a22ef9cff7d524a133)
+
+### 默认文章，转载自36k
+
+#### 创业投资
+
+- [如何找到“完美”的联合创始人？](https://36kr.com/p/5200268)，ObjectId(5c9791a22ef9cff7d524a12c)
+- [为什么大公司终于开始用SaaS了？](https://36kr.com/p/5199646)，ObjectId(5c9791a22ef9cff7d524a13c)
+
+#### 科技创新
+
+- [揭秘亚马逊的38条成功原则](https://36kr.com/p/5197301)，ObjectId(5c9791a22ef9cff7d524a14c)
+- [消失的手机玩家](https://36kr.com/p/5199713)，ObjectId(5c9791a22ef9cff7d524a15c)
+
+#### 企业服务
+
+- [阿里云不做的Saas，微软云为何要押重注？](https://36kr.com/p/5198937)，ObjectId(5c9791a22ef9cff7d524a16c)
+- [企业服务真的热吗？99% 的 VC 都投错了](https://36kr.com/p/5190303)，ObjectId(5c9791a22ef9cff7d524a17c)
+
+#### 生活娱乐
+
+- [死在摄像头面前的网红们](https://36kr.com/p/5200202)，ObjectId(5c9791a22ef9cff7d524a18c)
+- [拆解《复联4》票房奇迹](https://36kr.com/p/5199541)，ObjectId(5c9791a22ef9cff7d524a19c)
+
+#### 职场管理
+
+- [在员工眼里，你是一位“真实型领导”吗？](https://36kr.com/p/5200130)，ObjectId(5c9791a22ef9cff7d524a20c)
+- [面对晋升机会居然想后退？投资个人职业生涯的5种策略](https://36kr.com/p/5200031)，ObjectId(5c9791a22ef9cff7d524a21c)
+
+#### 便捷出行
+
+- [易到生死倒计时 | 小败局](https://36kr.com/p/5199488)，ObjectId(5c9791a22ef9cff7d524a22c)
+- [无人驾驶汽车成Uber最大威胁，将冲击依赖乘客司机的商业模式](https://36kr.com/p/5199059)，ObjectId(5c9791a22ef9cff7d524a23c)
+
+#### 创新创业
+
+- [“干掉”冰箱](https://36kr.com/p/5199529)，ObjectId(5c9791a22ef9cff7d524a24c)
+- [科技巨头转变业务模式，苹果和Facebook同时进入新时代](https://36kr.com/p/5199059)，ObjectId(5c9791a22ef9cff7d524a25c)
+
+#### 房屋产业
+
+- [北京万科宣布开启墅区3.0，做邻里友善社区](https://36kr.com/p/5200487)，ObjectId(5c9791a22ef9cff7d524a26c)
+- [楼市迈过四月，信号已经很微妙了](https://36kr.com/p/5199090)，ObjectId(5c9791a22ef9cff7d524a27c)
+
 ## 其他
 
 测试待完善，欢迎贡献👏。

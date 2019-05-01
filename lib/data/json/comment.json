@@ -1,0 +1,17 @@
+{
+  "name": "Comment",
+  "data": [{
+    "_id": "5c9791a22ef9cff7d524a12d",
+    "articleId": "5c9791a22ef9cff7d524a12c",
+    "authorNickname": "匿名网友",
+    "authorUrl": "http://jscms.top/",
+    "authorEmail": "user@jscms.top",
+    "authorAvatar": "/theme-static/default/static/images/user-default.jpeg",
+    "mdContent": "这是第一条评论！",
+    "htContent": "<p>这是第一条评论！</p>",
+    "likeTotal": 1,
+    "commentTotal": 0,
+    "createTime": 1546300800000,
+    "updateTime": 1546300800000
+  }]
+}
