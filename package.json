@@ -31,6 +31,7 @@
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
     "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11",
     "marked": "^0.6.2",
     "modelman": "^0.1.4",
     "mongoose": "^5.4.19",

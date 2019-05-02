@@ -6,7 +6,7 @@
       "alias": "tags",
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
-      "info": ["jscms"]
+      "info": []
     },
     {
       "name": "域名信息",
@@ -95,7 +95,7 @@
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
       "info": {
-        "num": 4
+        "num": 15
       }
     }
   ]
