@@ -42,7 +42,13 @@
         "footHTML": "<p>© Jscms.Top All Rights Reserved. Jscms 版权所有</p>",
         "logo": "",
         "favicon": "",
-        "about": "本网站自豪的采用Jscms搭建。"
+        "about": "本网站自豪的采用Jscms搭建。",
+        "boolWebReg": true,
+        "boolWebRegEmail": true,
+        "boolWebRegEmailActive": true,
+        "boolWebRegPhone": false,
+        "boolCommentLogin": false,
+        "boolLoginVercode": true
       }
     },
     {
