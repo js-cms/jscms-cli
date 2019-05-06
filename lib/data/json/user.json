@@ -15,7 +15,7 @@
     "tags": ["懒"],
     "avatar": "/theme-static/default/static/images/user-default.jpeg",
     "about": "执着于理想，纯粹于当下。",
-    "power": ["super"],
+    "powers": ["super"],
     "score": 99999,
     "active": true,
     "createTime": 1546300800000,
