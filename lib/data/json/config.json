@@ -35,8 +35,11 @@
         "showId": "0",
         "data": [{
           "id": "0",
+          "isShow": false,
           "title": "这是网站的第一条公告",
-          "content": "欢迎您使用Jscms内容管理系统。"
+          "content": "欢迎您使用Jscms内容管理系统。",
+          "createTime": 1546300800000,
+          "updateTime": 1546300800000
         }]
       }
     },
