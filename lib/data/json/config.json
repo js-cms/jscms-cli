@@ -27,6 +27,20 @@
       ]
     },
     {
+      "name": "网站公告",
+      "alias": "notices",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": {
+        "showId": "0",
+        "data": [{
+          "id": "0",
+          "title": "这是网站的第一条公告",
+          "content": "欢迎您使用Jscms内容管理系统。"
+        }]
+      }
+    },
+    {
       "name": "站点信息",
       "alias": "site",
       "createTime": 1546300800000,
