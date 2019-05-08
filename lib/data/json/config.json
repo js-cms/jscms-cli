@@ -120,6 +120,17 @@
       "info": {
         "num": 15
       }
+    },
+    {
+      "name": "搜索词记录",
+      "alias": "searchKeywordsCount",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": {
+        "keywords": {
+          "测试搜索": 1
+        }
+      }
     }
   ]
 }
