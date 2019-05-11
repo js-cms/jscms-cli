@@ -76,6 +76,40 @@
       "info": [
         {
           "order": 0,
+          "name": "文章分类",
+          "type": "category",
+          "alias": "category",
+          "link": "",
+          "categoryId": "5c9791a22ef9cff7d524a126",
+          "activeUrl": "",
+          "children": [{
+            "order": 0,
+            "name": "创业投资",
+            "type": "category",
+            "alias": "venture",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a126",
+            "activeUrl": ""
+          }, {
+            "order": 1,
+            "name": "科技创新",
+            "type": "category",
+            "alias": "technology",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a127",
+            "activeUrl": ""
+          }, {
+            "order": 2,
+            "name": "企业服务",
+            "type": "category",
+            "alias": "enterprise",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a128",
+            "activeUrl": ""
+          }]
+        },
+        {
+          "order": 1,
           "name": "自定义菜单",
           "alias": "custom",
           "link": "/page/custom.html",
