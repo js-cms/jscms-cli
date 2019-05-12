@@ -106,14 +106,57 @@
             "link": "",
             "categoryId": "5c9791a22ef9cff7d524a128",
             "activeUrl": ""
+          }, {
+            "order": 3,
+            "name": "生活娱乐",
+            "type": "category",
+            "alias": "life",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a129",
+            "activeUrl": ""
+          }, {
+            "order": 4,
+            "name": "职场管理",
+            "type": "category",
+            "alias": "workplace",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a130",
+            "activeUrl": ""
+          }, {
+            "order": 5,
+            "name": "便捷出行",
+            "type": "category",
+            "alias": "travel",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a131",
+            "activeUrl": ""
+          }, {
+            "order": 6,
+            "name": "创新创业",
+            "type": "category",
+            "alias": "innovate",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a132",
+            "activeUrl": ""
+          }, {
+            "order": 7,
+            "name": "房屋产业",
+            "type": "category",
+            "alias": "estate",
+            "link": "",
+            "categoryId": "5c9791a22ef9cff7d524a133",
+            "activeUrl": ""
           }]
         },
         {
           "order": 1,
           "name": "自定义菜单",
-          "alias": "custom",
+          "type": "link",
+          "alias": "customlink",
           "link": "/page/custom.html",
-          "activeUrl": "@/page/custom.html"
+          "categoryId": "",
+          "activeUrl": "@/page/custom.html",
+          "children": []
         }
       ]
     },
