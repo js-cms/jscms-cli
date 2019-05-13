@@ -58,7 +58,7 @@
         "articleStatement": "<style>\n.statement {\n  font-size: 12px;\n}\n.statement .font-red {\n  color: red;\n}\n</style>\n<div class=\"statement\">\n  <span class=\"font-red\">声明：</span>\n  <span class=\"text\">本站的部分内容来源于互联网，如不慎侵犯到您的权益，请联系我们，我们会在36小时内删除。\n  </span>\n</div>\n",
         "footHTML": "<p>© Jscms.Top All Rights Reserved. Jscms 版权所有</p>",
         "logo": "https://avatars0.githubusercontent.com/u/48785547?s=200&v=4",
-        "favicon": "",
+        "favicon": "https://avatars0.githubusercontent.com/u/48785547?s=200&v=4",
         "about": "本网站自豪的采用Jscms搭建。",
         "boolWebReg": true,
         "boolWebRegEmail": true,
@@ -170,15 +170,36 @@
           "order": 0,
           "name": "google",
           "logo": "",
-          "url": "https//www.google.com/",
-          "desc": "这是google的官方网站。"
+          "url": "https://www.google.com/",
+          "desc": "这是google的官方网站"
         },
         {
           "order": 1,
           "name": "jscms",
           "logo": "",
-          "url": "https//www.jscms.top/",
-          "desc": "这是jscms的官方网站。"
+          "url": "http://www.jscms.top/",
+          "desc": "这是jscms的官方网站"
+        },
+        {
+          "order": 0,
+          "name": "百度",
+          "logo": "/static/upload/1546400000002.png",
+          "url": "https://www.baidu.com/",
+          "desc": "这是百度的官方网站"
+        },
+        {
+          "order": 1,
+          "name": "腾讯网",
+          "logo": "/static/upload/1546400000003.png",
+          "url": "https//www.qq.com/",
+          "desc": "这是QQ的官方网站"
+        },
+        {
+          "order": 2,
+          "name": "今日头条",
+          "logo": "/static/upload/1546400000001.png",
+          "url": "https://www.toutiao.com/",
+          "desc": "这是今日头条的官方网站"
         }
       ]
     },
