@@ -1,7 +1,6 @@
 {
   "name": "Config",
-  "data": [
-    {
+  "data": [{
       "name": "标签",
       "alias": "tags",
       "createTime": 1546300800000,
@@ -13,8 +12,7 @@
       "alias": "domains",
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
-      "info": [
-        {
+      "info": [{
           "protocol": "http",
           "host": "www.jscms.com",
           "port": "80"
@@ -55,27 +53,32 @@
         "favicon": "/static/upload/1546400000005.png",
         "keywords": "jscms,内容管理系统",
         "description": "又是一个Jscms站点。",
+
         "logo": "/static/upload/1546400000004.png",
         "icp": "京ICP备00000000号",
         "weibo": "https://weibo.com/",
         "email": "service@jscms.top",
         "qq": "17560235",
         "phone": "13000000000",
-        "vxqr": "/static/upload/1546400000006.png",
-        "alipay": "/static/upload/1546400000007.jpg",
-        "wxpay": "/static/upload/1546400000008.jpg",
         "about": "本网站自豪的采用Jscms搭建。",
         "articleStatement": "<style>\n.statement {\n  font-size: 12px;\n}\n.statement .font-red {\n  color: red;\n}\n</style>\n<div class=\"statement\">\n  <span class=\"font-red\">声明：</span>\n  <span class=\"text\">本站的部分内容来源于互联网，如不慎侵犯到您的权益，请联系我们，我们会在36小时内删除。\n  </span>\n</div>\n",
         "footHTML": "<p>© Jscms.Top All Rights Reserved. Jscms 版权所有</p>",
+
+        "qrWxservice": "/static/upload/1546400000006.png",
+        "qrWxpay": "/static/upload/1546400000009.jpg",
+        "qrWxpub": "/static/upload/1546400000006.png",
+        "qrAlipay": "/static/upload/1546400000008.jpg",
+        "qrUnionpay": "/static/upload/1546400000010.jpg",
+
         "boolWebReg": true,
         "boolWebRegEmail": true,
         "boolWebRegEmailActive": true,
         "boolWebRegPhone": false,
         "boolCommentLogin": false,
         "boolLoginVercode": true,
-        "emailConfService": "",
-        "emailConfUser": "",
-        "emailConfPass": ""
+        "confEmailService": "",
+        "confEmailUser": "",
+        "confEmailPass": ""
       }
     },
     {
@@ -83,100 +86,125 @@
       "alias": "menus",
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
-      "info": [
-        {
-          "order": 0,
-          "name": "文章分类",
-          "type": "category",
-          "alias": "category",
-          "link": "",
-          "categoryId": "5c9791a22ef9cff7d524a126",
-          "activeUrl": "",
-          "children": [{
+      "info": {
+        "top": [{
             "order": 0,
-            "name": "创业投资",
+            "name": "文章分类",
             "type": "category",
-            "alias": "venture",
+            "alias": "category",
             "link": "",
             "categoryId": "5c9791a22ef9cff7d524a126",
-            "activeUrl": ""
-          }, {
+            "activeUrl": "",
+            "children": [{
+              "order": 0,
+              "name": "创业投资",
+              "type": "category",
+              "alias": "venture",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a126",
+              "activeUrl": ""
+            }, {
+              "order": 1,
+              "name": "科技创新",
+              "type": "category",
+              "alias": "technology",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a127",
+              "activeUrl": ""
+            }, {
+              "order": 2,
+              "name": "企业服务",
+              "type": "category",
+              "alias": "enterprise",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a128",
+              "activeUrl": ""
+            }, {
+              "order": 3,
+              "name": "生活娱乐",
+              "type": "category",
+              "alias": "life",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a129",
+              "activeUrl": ""
+            }, {
+              "order": 4,
+              "name": "职场管理",
+              "type": "category",
+              "alias": "workplace",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a130",
+              "activeUrl": ""
+            }, {
+              "order": 5,
+              "name": "便捷出行",
+              "type": "category",
+              "alias": "travel",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a131",
+              "activeUrl": ""
+            }, {
+              "order": 6,
+              "name": "创新创业",
+              "type": "category",
+              "alias": "innovate",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a132",
+              "activeUrl": ""
+            }, {
+              "order": 7,
+              "name": "房屋产业",
+              "type": "category",
+              "alias": "estate",
+              "link": "",
+              "categoryId": "5c9791a22ef9cff7d524a133",
+              "activeUrl": ""
+            }],
+            "showChildren": true
+          },
+          {
             "order": 1,
-            "name": "科技创新",
-            "type": "category",
-            "alias": "technology",
-            "link": "",
-            "categoryId": "5c9791a22ef9cff7d524a127",
-            "activeUrl": ""
-          }, {
-            "order": 2,
-            "name": "企业服务",
-            "type": "category",
-            "alias": "enterprise",
-            "link": "",
-            "categoryId": "5c9791a22ef9cff7d524a128",
-            "activeUrl": ""
-          }, {
-            "order": 3,
-            "name": "生活娱乐",
-            "type": "category",
-            "alias": "life",
-            "link": "",
-            "categoryId": "5c9791a22ef9cff7d524a129",
-            "activeUrl": ""
-          }, {
-            "order": 4,
-            "name": "职场管理",
-            "type": "category",
-            "alias": "workplace",
-            "link": "",
-            "categoryId": "5c9791a22ef9cff7d524a130",
-            "activeUrl": ""
-          }, {
-            "order": 5,
-            "name": "便捷出行",
-            "type": "category",
-            "alias": "travel",
-            "link": "",
-            "categoryId": "5c9791a22ef9cff7d524a131",
-            "activeUrl": ""
-          }, {
-            "order": 6,
-            "name": "创新创业",
-            "type": "category",
-            "alias": "innovate",
-            "link": "",
-            "categoryId": "5c9791a22ef9cff7d524a132",
-            "activeUrl": ""
-          }, {
-            "order": 7,
-            "name": "房屋产业",
-            "type": "category",
-            "alias": "estate",
-            "link": "",
-            "categoryId": "5c9791a22ef9cff7d524a133",
-            "activeUrl": ""
-          }]
-        },
-        {
-          "order": 1,
-          "name": "自定义菜单",
-          "type": "link",
-          "alias": "customlink",
-          "link": "/page/custom.html",
-          "categoryId": "",
-          "activeUrl": "@/page/custom.html",
-          "children": []
-        }
-      ]
+            "name": "自定义菜单",
+            "type": "link",
+            "alias": "customlink",
+            "link": "/page/custom.html",
+            "categoryId": "",
+            "activeUrl": "@/page/custom.html",
+            "children": [],
+            "showChildren": false
+          }
+        ],
+        "bottom": [{
+            "order": 0,
+            "name": "全宽专题",
+            "type": "link",
+            "alias": "categoriesFull",
+            "link": "/categories/full.html",
+            "categoryId": "",
+            "activeUrl": "",
+            "children": [],
+            "showChildren": false
+          },
+          {
+            "order": 1,
+            "name": "最新100篇",
+            "type": "link",
+            "alias": "latest100",
+            "link": "/latest/100.html",
+            "categoryId": "",
+            "activeUrl": "",
+            "children": [],
+            "showChildren": false
+          }
+        ]
+      }
     },
     {
       "name": "友情链接",
       "alias": "links",
       "createTime": 1546300800000,
       "updateTime": 1546300800000,
-      "info": [
-        {
+      "info": [{
           "order": 0,
           "name": "google",
           "logo": "",
