@@ -17,6 +17,11 @@
     "about": "执着于理想，纯粹于当下。",
     "powers": ["super"],
     "score": 99999,
+    "qrWx": "/static/upload/1546400000006.png",
+    "qrWxpay": "/static/upload/1546400000009.jpg",
+    "qrWxpub": "/static/upload/1546400000006.png",
+    "qrAlipay": "/static/upload/1546400000008.jpg",
+    "qrUnionpay": "/static/upload/1546400000010.jpg",
     "active": true,
     "createTime": 1546300800000,
     "updateTime": 1546300800000
