@@ -25,5 +25,30 @@
     "active": true,
     "createTime": 1546300800000,
     "updateTime": 1546300800000
+  }, {
+    "_id": "5c9648d94a4cf500067b6770",
+    "phone": "",
+    "email": "anonymous",
+    "password": "",
+    "nickname": "匿名用户",
+    "sex": 1,
+    "birthday": "811987200000",
+    "qq": "",
+    "wx": "",
+    "work": "",
+    "location": "中国",
+    "tags": [],
+    "avatar": "/theme-static/default/static/images/user-default.jpeg",
+    "about": "",
+    "powers": ["anonymous"],
+    "score": 99999,
+    "qrWx": "",
+    "qrWxpay": "",
+    "qrWxpub": "",
+    "qrAlipay": "",
+    "qrUnionpay": "",
+    "active": true,
+    "createTime": 1546300800000,
+    "updateTime": 1546300800000
   }]
 }
