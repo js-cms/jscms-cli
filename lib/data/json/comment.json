@@ -5,11 +5,11 @@
     "commentId": "",
     "articleId": "5c9791a22ef9cff7d524a27c",
     "userId": "5c9648d94a4cf500067b6770",
-    "articleNumberId": "numberId",
+    "articleNumberId": 15,
     "mdContent": "这是第一条jscms的评论，你可以删除或修改它。",
     "htContent": "<p>这是第一条jscms的评论，你可以删除或修改它。</p>",
     "likeTotal": 1,
-    "replyTotal":0,
+    "replyTotal":0, 
     "createTime": 1546300800000,
     "updateTime": 1546300800000
   }]
