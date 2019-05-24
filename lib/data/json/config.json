@@ -82,6 +82,16 @@
       }
     },
     {
+      "name": "评论配置",
+      "alias": "comment",
+      "createTime": 1546300800000,
+      "updateTime": 1546300800000,
+      "info": {
+        "placeholder": "你怎么看...",
+        "tips": "请回复有价值的信息，无意义的评论将很快被删除，账号将被禁止发言。"
+      }
+    },
+    {
       "name": "菜单",
       "alias": "menus",
       "createTime": 1546300800000,
