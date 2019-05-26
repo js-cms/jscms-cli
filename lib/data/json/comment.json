@@ -2,6 +2,7 @@
   "name": "Comment",
   "data": [{
     "_id": "5c9791a22ef9cff7d524a12d",
+    "shield": false,
     "numberId": 1,
     "commentId": "",
     "articleId": "5c9791a22ef9cff7d524a27c",
@@ -20,6 +21,7 @@
     "updateTime": 1546300800000
   }, {
     "_id": "5c9791a22ef9cff7d524a32d",
+    "shield": false,
     "numberId": 1,
     "commentId": "5c9791a22ef9cff7d524a12d",
     "articleId": "5c9791a22ef9cff7d524a27c",
@@ -28,11 +30,7 @@
       "nickname": "Jscms超级管理员",
       "avatar": "/theme-static/default/static/images/user-default.jpeg"
     },
-    "userReplied": {
-      "id": "5c9648d94a4cf500067b6769",
-      "nickname": "Jscms超级管理员",
-      "avatar": "/theme-static/default/static/images/user-default.jpeg"
-    },
+    "userReplied": {},
     "articleNumberId": 15,
     "mdContent": "这是第一条jscms的子评论，你可以删除或修改它。",
     "htContent": "<p>这是第一条jscms的子评论，你可以删除或修改它。</p>",
