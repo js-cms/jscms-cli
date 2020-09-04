@@ -17,7 +17,7 @@
     "jscms-bak": "^0.0.2",
     "lodash": "^4.17.11",
     "markdown-it": "^8.4.2",
-    "marked": "^0.6.1",
+    "marked": "^1.1.1",
     "modelman": "^0.1.4",
     "moment": "^2.24.0",
     "svg-captcha": "^1.3.12",
